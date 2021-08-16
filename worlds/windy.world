@@ -12,12 +12,18 @@
     <include>
       <uri>model://asphalt_plane</uri>
     </include>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>45.455207</latitude_deg>
+      <longitude_deg>-73.915226</longitude_deg>
+      <elevation>149.0</elevation>
+    </spherical_coordinates>
     <plugin name='wind_plugin' filename='libgazebo_wind_plugin.so'>
       <frameId>base_link</frameId>
       <robotNamespace/>
       <xyzOffset>1 0 0</xyzOffset>
       <windDirectionMean>0 1 0</windDirectionMean>
-      <windVelocityMean>0.0</windVelocityMean>
+      <windVelocityMean>5.0</windVelocityMean>
       <windGustDirection>0 0 0</windGustDirection>
       <windGustDuration>0</windGustDuration>
       <windGustStart>0</windGustStart>
