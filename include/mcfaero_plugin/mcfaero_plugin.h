@@ -29,7 +29,6 @@
 
 namespace gazebo
 {
-
   /// \brief A plugin that simulates lift and drag.
   class GAZEBO_VISIBLE McFAeroPlugin : public ModelPlugin
   {

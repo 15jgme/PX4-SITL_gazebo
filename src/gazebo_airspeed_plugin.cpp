@@ -163,6 +163,8 @@ void AirspeedPlugin::OnSensorUpdate() {
   airspeed_msg.set_time_usec(last_time_.Double() * 1e6);
   airspeed_msg.set_diff_pressure(diff_pressure);
   airspeed_pub_->Publish(airspeed_msg);
+
+
 }
 
 
